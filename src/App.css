@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.app__header{
+  height: 60px;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkout_meal__image{
+  width: 25%;
+}
+
+
+.mealItem__images{
+  height: 150px !important;
+  object-fit: scale-down;
+}
+
+.meal__card{
+  margin: 10px;
+}
